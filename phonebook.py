@@ -22,7 +22,7 @@ def read():
 
 
 def update():
-    name = input('Enter the name of the record you want to get: ')
+    name = input('Enter the record name you want to get: ')
     if name not in book:
         print("record was not found")
         return
